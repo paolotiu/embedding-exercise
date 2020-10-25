@@ -11,8 +11,15 @@
         integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
         crossorigin="anonymous"
     />
-
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+    </style>
+    <link
+        href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
+
     <body>
         <main class="">
             <header class="header">
@@ -41,7 +48,7 @@
                 <div class="player">
                     <iframe
                         width="100%"
-                        height="720px"
+                        height="100%"
                         src="https://www.youtube.com/embed/CvPucgpW_-c"
                         frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -49,7 +56,77 @@
                     ></iframe>
                 </div>
 
-                <section class="recommendations">Recos</section>
+                <section class="recommendations">
+                    <p class="up-next">Up Next</p>
+                    <a href="https://www.youtube.com/">
+                        <div class="other-video-container">
+                            <div class="preview">
+                                <span class="duration">19:24</span>
+                                <img
+                                    class="thumbnail"
+                                    height="100%"
+                                    src="https://www.sciencemag.org/sites/default/files/styles/inline__450w__no_aspect/public/dogs_1280p_0.jpg?itok=4t_1_fSJ"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="other-video-text">
+                                <p class="other-video-title">
+                                    Hello THis is Woofie doggie HEHE
+                                    FASOIj0ijasiofjasoifjasiof
+                                </p>
+                                <p class="other-video-channel">Chnnael Name</p>
+                                <p class="other-video-views">
+                                    46k views &middot; 6 days ago
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                    <hr />
+                </section>
+                <section class="video-info-container">
+                    <p class="hashtags">
+                        <a href="#"> #Chill </a>
+                        <a href="#"> #LowFi </a>
+                    </p>
+                    <p class="video-title">
+                        3:30 a.m. gratitude ~ lofi hip hop / jazzhop / chillhop
+                        mix [study/sleep/homework music]
+                    </p>
+                    <section class="views-likes">
+                        <p class="views">445,930 views • Mar 5, 2020</p>
+                        <div class="options-bar">
+                            <hr />
+                            <button>
+                                <span class="material-icons md-18">
+                                    thumb_up
+                                </span>
+                                10K
+                            </button>
+                            <button>
+                                <span class="material-icons md-18">
+                                    thumb_down
+                                </span>
+                                15K
+                            </button>
+                            <button>
+                                <span class="material-icons md-18"> reply </span
+                                >Share
+                            </button>
+                            <button>
+                                <span class="material-icons md-18">
+                                    playlist_add
+                                </span>
+                                Save
+                            </button>
+                            <button>
+                                <span class="material-icons md-18">
+                                    more_horiz
+                                </span>
+                            </button>
+                        </div>
+                    </section>
+                    <hr />
+                </section>
             </section>
         </main>
     </body>
